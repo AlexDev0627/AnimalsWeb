@@ -454,3 +454,66 @@ header {
     font-size: 0.85rem;
     color: #888888;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding: 0 20px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .info-container {
+        padding-top: 40px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .form-container {
+        min-width: 100%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .card-animal {
+        height: auto;
+    }
+
+    .card-image {
+        height: 250px;
+    }
+
+    .contact-form {
+        padding: 20px 15px;
+    }
+}
