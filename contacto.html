@@ -35,7 +35,7 @@
                 
                 <div class="form-group">
                     <label for="nombre">Nombre Completo:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+"   required>
                 </div>
 
                 <div class="form-group">
@@ -45,12 +45,12 @@
 
                 <div class="form-group">
                     <label for="asunto">Asunto:</label>
-                    <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" required>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+" required>
                 </div>
 
                 <div class="form-group">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+" required></textarea>
                 </div>
 
                 <button type="submit" class="btn-submit">Enviar Mensaje</button>
