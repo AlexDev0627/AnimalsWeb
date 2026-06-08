@@ -456,7 +456,8 @@ header {
 }
 .btn-volver{
     text-decoration:none;
-    color: blue;
+    color: white;
+    background-color:black;
 }
 
 @media (max-width: 768px) {
